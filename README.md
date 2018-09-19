@@ -1,46 +1,11 @@
-# Hypnotic Spiral 3.4
-Copyright (C) 2006-2018 by Yonah Arakoslav
+# Hypnotic Spiral 5.1
+Copyright (C) 1998-2018 by ultracon0 (stopthedeepweb@protonmail.com)
+
+originally by
+
+Yonah Arakoslav
 arakoslav@protonmail.com
 
-## New in this version
-
-Many new scripts
-Some sample images and a sound track
-Experiment with syllabalized words in spiral.py
-I've now got an e-mail address.  I'm happy to receive reports of use
-of this program, especially if you've got the a/v features working!
-
-## Introduction
-
-A few years ago, the hypno-fetish artiste known as William Lee wrote a
-program called SlaveMaker.  It was a flexible hypnosis toolkit---and
-quite a blast.  I've been using it on and off over the years since
-with great effect.  I've enjoyed using it with and on partners.
-Unfortunately, SlaveMaker has a few flaws:
-
- * It's expired.  WLee built in a timing device to discourage use of
-   old copies and eventually help him sell the program to Jane Caine
-   as the "Erotic Inducer"
-
- * It's Shockwave Flash.  That and the way its loops are written mean
-   it takes a *lot* of processor.  My fan spins up every time I run
-   it.
-
-   This also means that it's somewhat less flexible than I'd like.
-
-And since it's not free software, I can't really fix any of this.  So
-thank you, William Lee, for inspiring me to write something entirely
-new.  You did fantastic work.  I do hope that you yourself find some
-use from this program.
-
-A decade before that, an anonymous author posted a story to
-alt.sex.stories.  It opened my eyes to what erotica could be like.  I
-believe it established the hypnofetish genre.  Though my tastes since
-have run more to Tabico and trilby else, this story first got me
-looking in this direction.  I'm grateful to that original author, and
-to Tabico and trilby, for their work.
-
-## Using the program
 
 The program is made to be very easy to use.  It should be able to get
 out of your way and get its job done.
@@ -51,19 +16,12 @@ This program is written in a language called Python, and heavily uses
 a library for Python called PyGame.  To use this program, you'll have
 to install both of them.  You can get Python from
 <http://www.python.org/download/> and PyGame from
-<http://www.pygame.org/download.shtml>.  If you're on a reasonable
-Linux system, you can probably just install both through your package
-manager.  On a Mac, there are nice pre-packaged installers.  On
-Windows, you're on your own.
+<http://www.pygame.org/download.shtml>. this program is best run on macOS 10.12 or newer , it may run on older versions or on windows, but this is not officially supported.
 
-You will also need media.  Put pictures in the "images" directory.  I
-haven't included any pictures partly because they're huge, and partly
-because they're not mine to give away.  I've got a 40 MB bundle with
-image manipulations by Haywaine, Tabico, WLee, nightcrawler... but
-don't feel right sending around copies without their permission.
+You will also need media.  Put pictures in the "images" directory.  included images may or may not exist
 
 You can replace the included MP3 files if you like.  In fact, you'll
-have to!  To cut down on size, I don't ship any MP3s.
+have to!  To cut down on size, not all MP3 files are supported.
 
 After that, you can just run spiral.py:
 
